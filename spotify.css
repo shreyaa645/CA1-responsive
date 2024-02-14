@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(57, 53, 53);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+header {
+    background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    #div1 {
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #div1, #div2 {
+        width: 50%;
+        padding: 0;
+    }
+    
+    #div1 {
+        order: 2;
+    }
+    
+    #div2 {
+        background-color: rgb(27, 24, 24);
+        float: none;
+        order: 1;
+    }
+}
+
+button {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: black;
+}
+
+.suggestions img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.suggestions {
+    text-align: center;
+    margin: 20px;
+}
